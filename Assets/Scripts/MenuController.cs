@@ -16,7 +16,8 @@ public class MenuController : MonoBehaviour {
 
     /// <summary>
     /// Records an alphanumeric participant ID. Hit enter to record. May be entered multiple times
-    /// but only last submission is used.
+    /// but only last submission is used. Called using a dynamic function in the inspector
+    /// of the textfield object.
     /// </summary>
     /// <param name="arg0"></param>
     public void RecordID(string arg0)
